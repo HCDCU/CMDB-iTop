@@ -112,8 +112,7 @@ mkdir /var/www/html/{conf,env-production,env-production-build}
 #==============================================================================
 # Descarga Extensión - Monedas Adicionales para Contratos
 #==============================================================================
-git clone https://github.com/INTEGRACI/monedas-adicionales-contratos-itop.git /var/www/html/extensions/monedas-adicionales-contratos
-
+git clone https://github.com/HCDCU/CMDB-MonedasContratos.git /var/www/html/extensions/monedas-contratos
 
 #==============================================================================
 # Elimina diccionarios de otros lenguajes - Excepto Español Castellano e Inglés
