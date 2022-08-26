@@ -171,12 +171,12 @@ cat << EOF > /etc/httpd/conf.d/00-$DIRECTORIO.conf
  Options All -Includes -ExecCGI -Indexes +MultiViews
  Require all granted
  </Directory>
- <Directory "/var/www/html/setup">
- AllowOverride all
- Options All -Includes -ExecCGI -Indexes +MultiViews
- Require ip $IP_SEGMENTO_ADMINISTRACION
- ErrorDocument 403 http://${DOMINIO}/
- </Directory>
+ #<Directory "/var/www/html/setup">
+ #AllowOverride all
+ #Options All -Includes -ExecCGI -Indexes +MultiViews
+ #Require ip $IP_SEGMENTO_ADMINISTRACION
+ #ErrorDocument 403 http://${DOMINIO}/
+ #</Directory>
  LogLevel warn
  TimeOut 300
  ProxyTimeout 300
