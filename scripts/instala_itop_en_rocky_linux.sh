@@ -110,9 +110,18 @@ mkdir /var/www/html/{conf,env-production,env-production-build}
 
 
 #==============================================================================
-# Descarga Extensión - Monedas Adicionales para Contratos
+# Descarga extensiones adicionales
 #==============================================================================
 git clone https://github.com/HCDCU/CMDB-MonedasContratos.git /var/www/html/extensions/monedas-contratos
+git clone https://github.com/HCDCU/combodo-db-tools.git /var/www/html/extensions/combodo-db-tools
+git clone https://github.com/HCDCU/combodo-pmp-light.git /var/www/html/extensions/combodo-pmp-light
+git clone https://github.com/HCDCU/itop-jb-networkdevices-main.git /var/www/html/extensions/itop-jb-networkdevices-main
+git clone https://github.com/HCDCU/teemip-core-ip-mgmt.git /var/www/html/extensions/teemip-core-ip-mgmt
+git clone https://github.com/HCDCU/teemip-dhcp-mgmt.git /var/www/html/extensions/teemip-dhcp-mgmt
+git clone https://github.com/HCDCU/teemip-macaddress-lookup.git /var/www/html/extensions/teemip-macaddress-lookup
+git clone https://github.com/HCDCU/teemip-network-mgmt-extended.git /var/www/html/extensions/teemip-network-mgmt-extended
+git clone https://github.com/HCDCU/teemip-ip-request-mgmt.git /var/www/html/extensions/teemip-ip-request-mgmt
+git clone https://github.com/HCDCU/teemip-zone-mgmt.git /var/www/html/extensions/teemip-zone-mgmt
 
 #==============================================================================
 # Elimina diccionarios de otros lenguajes - Excepto Español Castellano e Inglés
