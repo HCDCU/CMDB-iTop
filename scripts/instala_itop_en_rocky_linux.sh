@@ -127,7 +127,7 @@ git clone https://github.com/HCDCU/teemip-zone-mgmt.git /var/www/html/extensions
 # Elimina diccionarios de otros lenguajes - Excepto Español Castellano e Inglés
 # Basado en el script de "Jeffrey Bostoen"
 #==============================================================================
-listaDiccionarios=("cs" "da" "de" "fr" "hu" "it" "ja" "nl" "pt_br" "ru" "sk" "tr" "zh" "zh_cn")
+listaDiccionarios=("cs" "da" "de" "fr" "hu" "it" "ja" "nl" "pl" "pt_br" "ru" "sk" "tr" "zh" "zh_cn")
 
 for i in "${listaDiccionarios[@]}"
 do
